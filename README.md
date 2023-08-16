@@ -1,19 +1,21 @@
-# Python-Template (Version 2023)
-## Introduction
-This is the python template we use for our classes. It contains:
-- main.py: Simple script
-- main_test.py: A single pytest-case
-- .gitignore: Used to exclude PyCharm settings and venv
-- requirements.txt: Basic requirements for python and pytest
-## Workflows
-### classroom.yml
-This workflow contains a number of jobs for the automation of classroom assignments.
-#### setup
-Runs only when the repository is first created by a push of 'classroom bot'.
-It triggers a workflow that copies the issues from a source repository into the students repos.
-#### grading
-Does not run when die repository is first created by 'classroom bot'.
-It triggers a workflow for autograding using the tests in /.github/classroom/autograding.json
+# M320_LU01.A6-DataHiding
 
-### copyissues.yml
-The workflow to copy the issues with manual trigger.
+#### Ziel
+
+Sie können anhand eines Programmcodes und seiner Ausführung aufzeigen, welche Probleme entstehen, wenn data hiding nicht beachtet wird.
+
+#### Auftrag
+
+Laden Sie die Datei **data_hiding.py** in Ihre Entwicklungsumgebung und führen Sie dann das Programm aus.
+Verwenden Sie dazu den folgen Link auf git:
+https://github.com/bzz-fgict/M320/tree/main/LU01/Aufgabe5
+
+1. Interpretieren Sie die Ausgabe am Bildschirm.
+   Was stellen Sie bezüglich der beiden Bankkonten Nr. 1 und Nr. 2 fest?
+2. Untersuchen Sie die beiden Klassen `BankAccountWell` und `BankAccountUgly` bezüglich ihrem Code, insbesondere mit Blick auf das Attribut `saldo`.
+   Was stellen Sie hier fest?
+3. Halten Sie Ihre Beobachtungen und Analysen in einem Textdokument fest.
+
+#### Abgabe
+
+Geben Sie Ihren Text als PDF-Datei in Moodle ab.
