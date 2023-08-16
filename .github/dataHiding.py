@@ -58,18 +58,18 @@ class BankAccountUgly:
 if __name__ == "__main__":
     # erstellen eines Bankkontos, das seine Arbeit "well done" erledigt
     account1 = BankAccountWell(1000.0)
-    print("vom Bankkonto Nr. 1 mit Saldo " + str(account1.saldo) + " wird 300.0 abgehoben")
+    print('vom Bankkonto Nr. 1 mit Saldo ' + str(account1.saldo) + ' wird 300.0 abgehoben')
     money_drawn = account1.get_money(300.0)
-    print("neuer Saldo = " + str(account1.saldo))
-    print("vom Bankkonto Nr. 1 mit Saldo " + str(account1.saldo) + " wird 900.0 abgehoben")
+    print('neuer Saldo = ' + str(account1.saldo))
+    print('vom Bankkonto Nr. 1 mit Saldo ' + str(account1.saldo) + ' wird 900.0 abgehoben')
     money_drawn = account1.get_money(900.0)
-    print("neuer Saldo = " + str(account1.saldo), "da der Bezug " + str(money_drawn) + " liefert")
-    print("-----------------------------------------------------------------------------------------")
+    print('neuer Saldo = ' + str(account1.saldo), 'da der Bezug ' + str(money_drawn) + ' liefert')
+    print('-----------------------------------------------------------------------------------------')
     # erstellen eines Bankkontos, das seine Arbeit "ugly made" erledigt
     account2= BankAccountUgly(1000)
-    print("vom Bankkonto Nr. 2 mit Saldo " + str(account2.saldo) + " wird 300.0 abgehoben")
+    print('vom Bankkonto Nr. 2 mit Saldo ' + str(account2.saldo) + ' wird 300.0 abgehoben')
     account2.saldo -= 300
-    print("neuer Saldo = " + str(account2.saldo))
-    print("vom Bankkonto Nr. 2 mit Saldo " + str(account2.saldo) + " wird 900.0 abgehoben")
+    print('neuer Saldo = ' + str(account2.saldo))
+    print('vom Bankkonto Nr. 2 mit Saldo ' + str(account2.saldo) + ' wird 900.0 abgehoben')
     account2.saldo -= 900
-    print("neuer Saldo = " + str(account2.saldo), "da der Bezug 900.0 liefert")
+    print('neuer Saldo = ' + str(account2.saldo), 'da der Bezug 900.0 liefert')
