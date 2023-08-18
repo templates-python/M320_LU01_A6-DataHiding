@@ -25,8 +25,8 @@ class BankAccountWell:
         :param value:
         :return:
         """
-        if value < self.__saldo:
-            self.__saldo -= value
+        if value < self._saldo:
+            self._saldo -= value
             return value
         else:
             return 0
@@ -37,7 +37,7 @@ class BankAccountWell:
         Liefert den aktuellen Saldo des Kontos
         :return:
         """
-        return self.__saldo
+        return self._saldo
 
 
 
