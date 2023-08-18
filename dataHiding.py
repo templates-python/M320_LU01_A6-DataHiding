@@ -14,7 +14,7 @@ class BankAccountWell:
         Konstruktor eröffnet das Konto mit einem Startbetrag
         :param starting_amount:
         """
-        self.__saldo = starting_amount
+        self._saldo = starting_amount
 
 
     def get_money(self, value):
